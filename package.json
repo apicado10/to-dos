@@ -4,7 +4,9 @@
   "description": "redux project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack serve --mode development",
+    "build": "npx webpack --mode development"
   },
   "keywords": [
     "react",
@@ -25,6 +27,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0"
   }
 }
